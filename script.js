@@ -1,38 +1,47 @@
 const questions=[
     {
-        question:"How much do you love me??",
+        question:"Which attribute is used to provide a unique name to HTMl element??",
         answers:[
-            {text:"100%" ,correct:false},
-            {text:"Infinity", correct:true},
-            {text:"No" ,correct:false},
-            {text:"500%", correct:false},
+            {text:"class" ,correct:false},
+            {text:"id", correct:true},
+            {text:"type" ,correct:false},
+            {text:"None of the above", correct:false},
         ]
     },
     {
-        question:"What is your weakness in me??",
+        question:"How to set a font for a whole page?",
         answers:[
-            {text:"Eyes" ,correct:false},
-            {text:"Lips", correct:true},
-            {text:"Cheeks" ,correct:false},
-            {text:"Neck", correct:false},
+            {text:"targetfont" ,correct:false},
+            {text:"defaultfont", correct:true},
+            {text:"font" ,correct:false},
+            {text:"None of the above", correct:false},
         ]
     },
     {
-        question:"What do you thing my weakness in you??",
+        question:"How are quotations defined in HTML??",
         answers:[
-            {text:"Smile" ,correct:true},
-            {text:"Anger", correct:false},
-            {text:"Hugs" ,correct:true},
-            {text:"Calories", correct:true},
+            {text:"blockquote" ,correct:true},
+            {text:"quote", correct:false},
+            {text:"block" ,correct:false},
+            {text:"None of the above", correct:false},
         ]
     },
     {
-        question:"Will you marry me??",
+        question:"What does the alpha value of RGBA represent?",
         answers:[
-            {text:"Already u r my wife", correct:true},
-            {text:"No", correct:false},
-            {text:"Never..but will think of it" ,correct:false},
-            {text:"Now....??", correct:false},
+            {text:"Opacity value of color", correct:true},
+            {text:"The shade of a color", correct:false},
+            {text:"Both" ,correct:false},
+            {text:"None of the above", correct:false},
+        ]
+    },
+    {
+        question:"What are those objects called which ae used for storing data on client provied by the HTML local storage?",
+        answers:[
+            {text:"Windows.localStorage", correct:false},
+            {text:"Windows.sessionStorage", correct:false},
+            {text:"Both" ,correct:true},
+            {text:"None of the above", correct:false},
         ]
     }
 ];
